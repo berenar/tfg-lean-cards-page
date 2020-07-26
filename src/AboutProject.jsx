@@ -14,7 +14,7 @@ function AboutProject() {
                     They will be used to instruct software-related business how to apply 
                     Lean methodologies to create more value for customers with fewer resources.
                     <br/><br/>
-                This project is available on <a href="https://github.com/berenar/tfg-lean-cards-page">github</a>.
+                This project is available on <a href="https://github.com/berenar/tfg-lean-cards-page">GitHub</a>.
                 </h3>
                 <Flip top cascade>
                     <img id="lean-keywords" src={require("./assets/Lean-project-management.jpg")}
