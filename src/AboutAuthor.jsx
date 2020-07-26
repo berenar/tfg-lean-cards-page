@@ -6,6 +6,8 @@ import Flip from 'react-reveal/Flip';
 import {
     MailTwoTone,
     GithubOutlined,
+    LinkedinOutlined,
+    ContactsOutlined,
 } from '@ant-design/icons';
 
 function AboutAuthor(props) {
@@ -23,8 +25,12 @@ function AboutAuthor(props) {
                 <h2>{props.author}</h2>
                 <div className="icons-list">
                     <Space>
-                        <MailTwoTone twoToneColor="#D4AF37" height="4em" />
-                        <GithubOutlined />
+                        <a href="mailto:bernatpericasserra97@gmail.com">
+                            <MailTwoTone twoToneColor="#D4AF37" height="7em" />
+                        </a>
+                        <a href="https://github.com/berenar"><GithubOutlined /></a>
+                        <a href="https://www.linkedin.com/in/bernatps/"><LinkedinOutlined /></a>
+                        <a href="http://bernatpericas.com/"><ContactsOutlined /></a>
                     </Space>
                 </div>
             </div>

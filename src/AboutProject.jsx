@@ -11,9 +11,9 @@ function AboutProject() {
         <div className="AboutProject_container">
             <div className="centered">
                 <h1 className="big">About the project</h1>
-                <h3 className="margins"> This web is part of the end-of-degree project in<br />
+                <h3 className="margins"> This web is part of the end-of-degree project in 
                     Computer Science about Lean Cards.<br /><br />
-                    They will be used to instruct software-related business how to apply <br />
+                    They will be used to instruct software-related business how to apply 
                     Lean methodologies to create more value for customers with fewer resources.
                     </h3>
 

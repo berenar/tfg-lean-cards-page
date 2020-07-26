@@ -5,7 +5,8 @@ import Tags from './Tags';
 
 import api from './api_cards.json';
 
-import Disqus from "disqus-react"
+import Disqus from "disqus-react";
+import { Divider } from 'antd';
 
 function CardPage(props) {
 
@@ -41,14 +42,15 @@ function CardPage(props) {
         <div className="centered">
             <div className="CardPage_container">
                 <h1 className="big">{thisCard.title}</h1>
+                
                 <h2 className="card_desc">{thisCard.description}</h2>
-
-                {/* <iframe className="embeded_pdf" title="embededpdf"
-                    src={dynamic_require_pdf(thisCard.title)}
-                >
-                </iframe> */}
+                <br/><br/><br/><br/>
+                <Divider><h2 className="resources">Related resources</h2></Divider>
+                <a href="https://www.youtube.com/watch?v=Ui-Lk6gK7m8">Example video 1</a>
+                <br/>
+                <Divider><h2 className="pdf">Card</h2></Divider>
                 <iframe class="embeded_pdf" src={dynamic_require_pdf(thisCard.title)}></iframe>
-
+                <Divider />
                 <Tags className="tags" />
                 <Disqus.DiscussionEmbed
                     className="disqus"

@@ -2,17 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300 &display=swap');
 
 .big {
-    font-size: clamp(30px, 7vw, 70px);
+    font-size: clamp(30px, 7vw, 50px);
 }
 
 h1 {
     /* minimum, actual and maximum font sizes */
-    font-size: clamp(12px, 4vw, 30px);
+    font-size: clamp(30px, 5vw, 40px);
     font-weight: bold;
 }
-
+h2{
+    font-size: clamp(25px, 4vw, 30px);;
+}
 h3 {
-    font-size: clamp(12px, 3vw, 20px);
+    font-size: clamp(20px, 3vw, 20px);
     color: gray;
 }
 
@@ -26,7 +28,7 @@ h3 {
 
 }
 .nav-bar {
-    font-size: clamp(15px, 3vw, 30px);
+    font-size: clamp(18px, 3vw, 30px);
     font-weight: 500;
 
     background-image: linear-gradient(to right, #ffafd7 , #ffc331);
@@ -79,9 +81,6 @@ footer {
 }
 
 /* ####################### CardsList.jsx ####################### */
-.CardsList_container {
-    margin: 2% 8%;
-}
 
 .cardimg {
     height: 20vw;
@@ -113,7 +112,7 @@ footer {
 /* ####################### Homepage.jsx ####################### */
 .Homepage_container {
     text-align: center;
-    margin: 2% 10%;
+    margin: 2% 5%;
 }
 
 #logo {
@@ -135,14 +134,17 @@ footer {
     margin-top: 10px;
 }
 
+.anticon{
+    width: 20px;
+}
 /* ####################### AboutProject.jsx ####################### */
 
 #lean-keywords {
-    width: 70%;
+    width: 90%;
 }
 
 .margins {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 5%;
 }

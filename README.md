@@ -1,7 +1,7 @@
 <p align="center">
   <img 
   src="https://github.com/berenar/tfg-lean-cards-page/blob/master/src/assets/Logo_noback.png" 
-  width="500"/>
+  width="400"/>
 </p>
 
 # Lean Cards Web-App
@@ -23,7 +23,7 @@ Default branch is master.
 Install project dependencies.
 
 ```
-npm install
+npm i
 ```
 
 ## Available Scripts
@@ -53,8 +53,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run deploy`
 
 Build the app for production and deploys it on github pages using gh-pages.
-
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
