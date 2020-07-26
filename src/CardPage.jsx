@@ -8,7 +8,7 @@ import api from './api_cards.json';
 import Disqus from "disqus-react"
 
 function CardPage(props) {
-    
+
     // Get data from this specific card such as the title, description, pdf, picture
     const thisCard = api.cards[props.id];
     // Disqus
@@ -42,10 +42,13 @@ function CardPage(props) {
             <div className="CardPage_container">
                 <h1 className="big">{thisCard.title}</h1>
                 <h2 className="card_desc">{thisCard.description}</h2>
-                <iframe className="embeded_pdf" title="embededpdf"
+
+                {/* <iframe className="embeded_pdf" title="embededpdf"
                     src={dynamic_require_pdf(thisCard.title)}
                 >
-                </iframe>
+                </iframe> */}
+                <iframe class="embeded_pdf" src={dynamic_require_pdf(thisCard.title)}></iframe>
+
                 <Tags className="tags" />
                 <Disqus.DiscussionEmbed
                     className="disqus"

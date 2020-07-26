@@ -34,7 +34,7 @@ h3 {
 .mini-logo {
     width: 35px;
 }
-.ant-menu-horizontal > .ant-menu-item a{
+.ant-menu-horizontal > .ant-menu-item a {
     color: white;
 }
 
@@ -49,6 +49,7 @@ h3 {
 
 /* ####################### CardPage.jsx ####################### */
 .embeded_pdf {
+    /* overflow: hidden; remove big-ass scrollbars */
     width: 80%;
     height: 600px;
     margin-top: 2%;
@@ -119,6 +120,7 @@ footer {
     width: 60%;
     display: inline;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .Homepage_container p {
