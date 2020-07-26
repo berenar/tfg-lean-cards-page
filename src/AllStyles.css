@@ -1,5 +1,5 @@
 /* ######################### Global ######################### */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300 &display=swap');
 
 .big {
     font-size: clamp(30px, 7vw, 70px);
@@ -19,6 +19,25 @@ h3 {
 .centered {
     text-align: center;
 }
+
+/* ####################### Navbar.jsx ####################### */
+.ant-menu {
+    text-align: center;
+
+}
+.nav-bar {
+    font-size: clamp(15px, 3vw, 30px);
+    font-weight: 500;
+
+    background-image: linear-gradient(to right, #ffafd7 , #ffc331);
+}
+.mini-logo {
+    width: 35px;
+}
+.ant-menu-horizontal > .ant-menu-item a{
+    color: white;
+}
+
 
 /* ######################### App.jsx ######################### */
 .App {
@@ -110,42 +129,18 @@ footer {
 
 /* ####################### AboutXXX.jsx ####################### */
 
-.icons-list{
+.icons-list {
     margin-top: 10px;
 }
 
 /* ####################### AboutProject.jsx ####################### */
 
-#cardExample{
-    width: 30%;
+#lean-keywords {
+    width: 70%;
 }
 
-.margins{
+.margins {
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 5%;
-}
-
-/* ####################### UNUSED ?????? ####################### */
-.site-layout-content {
-    background: #fff;
-    padding: 24px;
-    min-height: 280px;
-}
-
-#components-layout-demo-top .logo {
-    width: 120px;
-    height: 31px;
-    background: rgba(255, 255, 255, 0.2);
-    margin: 16px 24px 16px 0;
-    float: left;
-}
-
-.site-page-header {
-    border: 1px solid rgb(235, 237, 240);
-    /* text-align: center; */
-}
-
-.mini_logo{
-    width: 20px;
 }
