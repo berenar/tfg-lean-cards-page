@@ -1,13 +1,11 @@
 import React from 'react';
 
-import { Avatar, Space } from 'antd';
+import { Space } from 'antd';
 import Flip from 'react-reveal/Flip';
 import { MailTwoTone, GithubOutlined } from '@ant-design/icons';
 import { Link } from "@reach/router"
 
 function AboutProject() {
-
-
 
     return (
         <div className="AboutProject_container">
@@ -31,7 +29,6 @@ function AboutProject() {
                 </div>
             </div>
         </div>
-
     )
 }
 

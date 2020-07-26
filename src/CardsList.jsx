@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "@reach/router"
 
 //antd
-import { List, Avatar, Space } from 'antd';
+import { List } from 'antd';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 
 //mine
@@ -26,12 +26,6 @@ function CardsList() {
     })
   }
 
-  const IconText = ({ icon, text }) => (
-    <Space>
-      {React.createElement(icon)}
-      {text}
-    </Space>
-  );
 
   // Require images "dynamically"
   // Needed because of this https://github.com/facebook/react-native/issues/6391
@@ -47,16 +41,16 @@ function CardsList() {
       case 'Kanban': return require("./assets/pics/Kanban pic.png");
       case 'Poka-Yoke': return require("./assets/pics/Poka-Yoke pic.png");
       case 'Pull or Push': return require("./assets/pics/Pull or Push pic.png");
-      case 'VSM': return require("./assets/pics/VSM pic.png");
+      default: return require("./assets/pics/VSM pic.png");
     }
   }
-  return (
 
+  return (
     <div className="CardsList_container">
       <div className="centered">
         <h1 className="big">Available cards</h1>
       </div>
-      
+
       <List
         itemLayout="vertical"
         size="large"
@@ -67,7 +61,6 @@ function CardsList() {
         renderItem={item => (
           <Flip top>
             <Link to={`/cards_list/${item.id}`}>
-
               <List.Item
                 key={item.title}
                 extra={
@@ -96,6 +89,5 @@ function CardsList() {
   );
 
 }
-
 
 export default CardsList;

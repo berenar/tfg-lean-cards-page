@@ -8,7 +8,6 @@ import {
     GithubOutlined,
 } from '@ant-design/icons';
 
-
 function AboutAuthor(props) {
     return (
         <div className="AboutAuthor_container">

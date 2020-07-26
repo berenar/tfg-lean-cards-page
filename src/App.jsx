@@ -24,7 +24,7 @@ function App() {
       <Router>
         <Homepage default />
         <CardsList path="cards_list" />
-        <CardPage path="cards/:id" />
+        <CardPage path="cards_list/:id" />
         <AboutProject path="about_project" />
         <AboutAuthor path="about_author" author={author} />
       </Router>

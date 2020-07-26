@@ -9,11 +9,8 @@ import Disqus from "disqus-react"
 
 function CardPage(props) {
     
-
-
     // Get data from this specific card such as the title, description, pdf, picture
     const thisCard = api.cards[props.id];
-    var disqus_developer = 1; // this would set it to developer mode
     // Disqus
     const disqusShortname = "lean-cards"
     const disqusConfig = {
@@ -36,7 +33,7 @@ function CardPage(props) {
             case 'Kanban': return require("./assets/cards/pdf/Kanban.pdf");
             case 'Poka-Yoke': return require("./assets/cards/pdf/Poka-Yoke.pdf");
             case 'Pull or Push': return require("./assets/cards/pdf/Pull or Push.pdf");
-            case 'VSM': return require("./assets/cards/pdf/VSM.pdf");
+            default: return require("./assets/cards/pdf/VSM.pdf");
         }
     }
 

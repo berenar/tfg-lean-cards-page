@@ -1,13 +1,10 @@
 import React from 'react';
 
 import { Link } from "@reach/router"
-import './AllStyles.css';
+
 //antd
-import { Layout, Menu, PageHeader } from 'antd';
-const { Header, Content, Footer } = Layout;
-
-//mine
-
+import { Layout, Menu } from 'antd';
+const { Header } = Layout;
 
 function Navbar(props) {
     return (
