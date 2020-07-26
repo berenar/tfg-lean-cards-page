@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "715de5cb8eb843afa595f8ffa7b218a2",
+    "revision": "9670f0d20097cb2fbb40ca060014548f",
     "url": "/tfg-lean-cards-page/index.html"
   },
   {
-    "revision": "9a1b2ef16df0e104ffb1",
+    "revision": "41fc4737c0e0012c3866",
     "url": "/tfg-lean-cards-page/static/css/2.fc5a9450.chunk.css"
   },
   {
-    "revision": "6965b4e460ef18e519e1",
+    "revision": "b3d8081f43881e68d71c",
     "url": "/tfg-lean-cards-page/static/css/main.9f21ffc3.chunk.css"
   },
   {
-    "revision": "9a1b2ef16df0e104ffb1",
-    "url": "/tfg-lean-cards-page/static/js/2.109239f7.chunk.js"
+    "revision": "41fc4737c0e0012c3866",
+    "url": "/tfg-lean-cards-page/static/js/2.b4c4d656.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/tfg-lean-cards-page/static/js/2.109239f7.chunk.js.LICENSE.txt"
+    "url": "/tfg-lean-cards-page/static/js/2.b4c4d656.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6965b4e460ef18e519e1",
-    "url": "/tfg-lean-cards-page/static/js/main.a3378bc5.chunk.js"
+    "revision": "b3d8081f43881e68d71c",
+    "url": "/tfg-lean-cards-page/static/js/main.519d57e7.chunk.js"
   },
   {
     "revision": "68fbc4213b0011757b52",
