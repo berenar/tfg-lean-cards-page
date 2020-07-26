@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://github.com/berenar/tfg-lean-cards-page/blob/master/src/assets/Logo_noback.png"/>
+  <img 
+  src="https://github.com/berenar/tfg-lean-cards-page/blob/master/src/assets/Logo_noback.png" 
+  width="500"/>
 </p>
 
 # Lean Cards Web-App
