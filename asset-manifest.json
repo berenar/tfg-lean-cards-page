@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tfg-lean-cards-page/static/css/main.9f21ffc3.chunk.css",
-    "main.js": "/tfg-lean-cards-page/static/js/main.519d57e7.chunk.js",
-    "main.js.map": "/tfg-lean-cards-page/static/js/main.519d57e7.chunk.js.map",
+    "main.js": "/tfg-lean-cards-page/static/js/main.a7daa02f.chunk.js",
+    "main.js.map": "/tfg-lean-cards-page/static/js/main.a7daa02f.chunk.js.map",
     "runtime-main.js": "/tfg-lean-cards-page/static/js/runtime-main.65bab913.js",
     "runtime-main.js.map": "/tfg-lean-cards-page/static/js/runtime-main.65bab913.js.map",
     "static/css/2.fc5a9450.chunk.css": "/tfg-lean-cards-page/static/css/2.fc5a9450.chunk.css",
     "static/js/2.b4c4d656.chunk.js": "/tfg-lean-cards-page/static/js/2.b4c4d656.chunk.js",
     "static/js/2.b4c4d656.chunk.js.map": "/tfg-lean-cards-page/static/js/2.b4c4d656.chunk.js.map",
     "index.html": "/tfg-lean-cards-page/index.html",
-    "precache-manifest.dafa01849b3dc6412285d1f4cbb49119.js": "/tfg-lean-cards-page/precache-manifest.dafa01849b3dc6412285d1f4cbb49119.js",
+    "precache-manifest.a00244572ffc46c04d3c3325b11bb387.js": "/tfg-lean-cards-page/precache-manifest.a00244572ffc46c04d3c3325b11bb387.js",
     "service-worker.js": "/tfg-lean-cards-page/service-worker.js",
     "static/css/2.fc5a9450.chunk.css.map": "/tfg-lean-cards-page/static/css/2.fc5a9450.chunk.css.map",
     "static/css/main.9f21ffc3.chunk.css.map": "/tfg-lean-cards-page/static/css/main.9f21ffc3.chunk.css.map",
@@ -45,6 +45,6 @@
     "static/css/2.fc5a9450.chunk.css",
     "static/js/2.b4c4d656.chunk.js",
     "static/css/main.9f21ffc3.chunk.css",
-    "static/js/main.519d57e7.chunk.js"
+    "static/js/main.a7daa02f.chunk.js"
   ]
 }
