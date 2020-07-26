@@ -1,0 +1,151 @@
+/* ######################### Global ######################### */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.big {
+    font-size: clamp(30px, 7vw, 70px);
+}
+
+h1 {
+    /* minimum, actual and maximum font sizes */
+    font-size: clamp(12px, 4vw, 30px);
+    font-weight: bold;
+}
+
+h3 {
+    font-size: clamp(12px, 3vw, 20px);
+    color: gray;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* ######################### App.jsx ######################### */
+.App {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ####################### CardPage.jsx ####################### */
+.embeded_pdf {
+    width: 80%;
+    height: 600px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.card_desc {
+    margin: 2% 15%;
+}
+
+.tags {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.disqus {
+    margin: 2% 15%;
+}
+
+/* ####################### Footer.jsx ####################### */
+footer {
+    text-align: center;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+}
+
+/* ####################### CardsList.jsx ####################### */
+.CardsList_container {
+    margin: 2% 8%;
+}
+
+.cardimg {
+    height: 20vw;
+    width: auto;
+}
+
+:root {
+    --scalezoom: 2;
+    --timezoom: 0.3s;
+}
+
+.cardimg:hover {
+    position: relative;
+    -webkit-transform: scale(var(--scalezoom));
+    -ms-transform: scale(var(--scalezoom));
+    -o-transform: scale(var(--scalezoom));
+    transform: scale(var(--scalezoom));
+    z-index: 1000;
+}
+
+* {
+    -webkit-transition: all var(--timezoom) ease-in-out;
+    -moz-transition: all var(--timezoom) ease-in-out;
+    -ms-transition: all var(--timezoom) ease-in-out;
+    -o-transition: all var(--timezoom) ease-in-out;
+    transition: all var(--timezoom) ease-in-out;
+}
+
+/* ####################### Homepage.jsx ####################### */
+.Homepage_container {
+    text-align: center;
+    margin: 2% 10%;
+}
+
+#logo {
+    width: 60%;
+    display: inline;
+    margin-left: 20px;
+}
+
+.Homepage_container p {
+    font-size: medium;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* ####################### AboutXXX.jsx ####################### */
+
+.icons-list{
+    margin-top: 10px;
+}
+
+/* ####################### AboutProject.jsx ####################### */
+
+#cardExample{
+    width: 30%;
+}
+
+.margins{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+/* ####################### UNUSED ?????? ####################### */
+.site-layout-content {
+    background: #fff;
+    padding: 24px;
+    min-height: 280px;
+}
+
+#components-layout-demo-top .logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px 24px 16px 0;
+    float: left;
+}
+
+.site-page-header {
+    border: 1px solid rgb(235, 237, 240);
+    /* text-align: center; */
+}
+
+.mini_logo{
+    width: 20px;
+}

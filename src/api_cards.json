@@ -1,0 +1,81 @@
+{
+  "cards": {
+    "_5s": {
+      "description": "Create a workplace that is clean, uncluttered, safe, and well organized to reduce waste and maximize productivity.",
+      "title": "5 S",
+      "foto": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/5%20S-1.jpg?alt=media&token=2158609f-4f85-442a-9110-46955f661cbf",
+      "pdf": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/pdfs%2F5%20S.pdf?alt=media&token=6016aecc-2269-49b7-b697-7e45a43ae60a",
+      "tags": ""
+    },
+    "_5w2h": {
+      "description": "Effectively interpret or descriptionribe a problem or idea to understand it from different perspectives.",
+      "title": "5 W + 2 H",
+      "foto": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/5%20W%20%2B%202%20H-1.jpg?alt=media&token=2d414280-84d8-485e-8e6b-9a5ea45d0ab5",
+      "pdf": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/pdfs%2F5%20W%20%2B%202%20H.pdf?alt=media&token=a5134ecd-7dd7-4919-97f6-d8f559026c39",
+      "tags": ""
+    },
+    "_5w2hex": {
+      "description": "Examples for Requirements and Problems.",
+      "title": "5 W + 2 H Examples",
+      "foto": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/5%20W%20%2B%202%20H%20Examples-1.jpg?alt=media&token=83920566-7e29-4202-a0d1-c735c6cc78e1",
+      "pdf": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/pdfs%2F5%20W%20%2B%202%20H%20Examples.pdf?alt=media&token=ac77dd27-2a9b-4265-ac5a-4f6109d4fcd5",
+      "tags": ""
+    },
+    "_7mudas": {
+      "description": "Attack the most common causes of waste in software development.",
+      "title": "7 Mudas",
+      "foto": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/7%20mudas-1.jpg?alt=media&token=8519a25b-c74e-4513-b509-c7a66fc6ec02",
+      "pdf": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/pdfs%2F7%20mudas.pdf?alt=media&token=1e679547-c513-4d64-aa21-7f0358fad5ce",
+      "tags": ""
+    },
+    "_jidoka": {
+      "description": "Automation with a human touch.",
+      "title": "Jidoka",
+      "foto": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/Jidoka-1.jpg?alt=media&token=234d1ec9-1970-4da1-b9e2-94fc06d29f36",
+      "pdf": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/pdfs%2FJidoka.pdf?alt=media&token=ed8b4a29-11e3-4c8a-bc7e-ce47bc96263c",
+      "tags": ""
+    },
+    "_jit": {
+      "description": "Producing the right quantities of the right product in the right place at the right time.",
+      "title": "JIT",
+      "foto": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/JIT-1.jpg?alt=media&token=0fb700a0-85ce-4258-8e9c-2dfbe2f56607",
+      "pdf": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/pdfs%2FJIT.pdf?alt=media&token=e85731f3-9aa8-4dff-901a-d1f64fba2f0c",
+      "tags": ""
+    },
+    "_kaizen": {
+      "description": "Eliminate waste by continuously improving standardized processes.",
+      "title": "Kaizen",
+      "foto": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/Kaizen-1.jpg?alt=media&token=ee29240f-c291-4759-a265-712d1d50d991",
+      "pdf": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/pdfs%2FKaizen.pdf?alt=media&token=489d7d73-549c-46dd-8866-539002f3022a",
+      "tags": ""
+    },
+    "_kanban": {
+      "description": "Visualize the process of value creation.",
+      "title": "Kanban",
+      "foto": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/Kanban-1.jpg?alt=media&token=3b21216a-7571-4f96-8852-1a21ea6d8448",
+      "pdf": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/pdfs%2FKanban.pdf?alt=media&token=6e1cadc7-73a0-4e65-9a2b-da13440ad510",
+      "tags": ""
+    },
+    "_pokayoke": {
+      "description": "Eliminate product defects by preventing, correcting, or drawing attention to human errors as they occur.",
+      "title": "Poka-Yoke",
+      "foto": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/Poka-Yoke-1.jpg?alt=media&token=849430d4-cf14-482b-b72b-4d1a23e89e77",
+      "pdf": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/pdfs%2FPoka-Yoke.pdf?alt=media&token=eda0c9cb-1cde-44cb-92c9-c382441ae214",
+      "tags": ""
+    },
+    "_pullorpush": {
+      "description": "Build products based on actual demand and not on forecasts.",
+      "title": "Pull or Push",
+      "foto": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/Pull%20or%20Push-1.jpg?alt=media&token=8f5b3d45-6085-4559-910d-19a001086a8c",
+      "pdf": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/pdfs%2FPull%20or%20Push.pdf?alt=media&token=d35bed5f-751b-440b-ae08-2337230452c6",
+      "tags": ""
+    },
+    "_vsm": {
+      "description": "Visually understand how the value flows through an organization. Exposes waste in the current processes and provides a roadmap for improvement.",
+      "title": "VSM",
+      "foto": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/VSM-1.jpg?alt=media&token=98140f17-a209-4613-86fc-55ad080ea1a4",
+      "pdf": "https://firebasestorage.googleapis.com/v0/b/angular-lean-cards.appspot.com/o/pdfs%2FVSM.pdf?alt=media&token=2601fa89-73f6-4f45-b767-60fcd1ea6463",
+      "tags": ""
+    }
+  }
+}
