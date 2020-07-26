@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tfg-lean-cards-page/precache-manifest.92497e1d8dfac419f15a3b491aec52d8.js"
+  "/tfg-lean-cards-page/precache-manifest.73cf52c565a744fa45443b9f8f31285f.js"
 );
 
 self.addEventListener('message', (event) => {
