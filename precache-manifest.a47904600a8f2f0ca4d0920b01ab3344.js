@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c28b6968c5f3f35cf5ae64bc58a558e",
+    "revision": "6614dd6326d5e2fb5f558e8da23dbade",
     "url": "/tfg-lean-cards-page/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tfg-lean-cards-page/static/css/2.fc5a9450.chunk.css"
   },
   {
-    "revision": "7e2c4ad25092b8f21abf",
-    "url": "/tfg-lean-cards-page/static/css/main.059e4268.chunk.css"
+    "revision": "e3b2770f54364a22da27",
+    "url": "/tfg-lean-cards-page/static/css/main.73e69617.chunk.css"
   },
   {
     "revision": "335b53d49a99890cd602",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tfg-lean-cards-page/static/js/2.6ca2fdff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e2c4ad25092b8f21abf",
+    "revision": "e3b2770f54364a22da27",
     "url": "/tfg-lean-cards-page/static/js/main.69cb9325.chunk.js"
   },
   {
