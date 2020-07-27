@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c610851b733686438804e20399d4efff",
+    "revision": "2cf27e84d2bdf2ae8daaab3af559fa83",
     "url": "/tfg-lean-cards-page/index.html"
   },
   {
