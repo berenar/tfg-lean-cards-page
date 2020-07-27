@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "27dc3ca810545dd0d1a22a1572e7002f",
+    "revision": "5592c958b2830bdc85c5227619c18cf1",
     "url": "/tfg-lean-cards-page/index.html"
   },
   {
-    "revision": "41fc4737c0e0012c3866",
+    "revision": "a2f4fdc00227270caf84",
     "url": "/tfg-lean-cards-page/static/css/2.fc5a9450.chunk.css"
   },
   {
-    "revision": "d95529bf5abe5f80541b",
-    "url": "/tfg-lean-cards-page/static/css/main.9f21ffc3.chunk.css"
+    "revision": "1b03c4452ecc8981b8eb",
+    "url": "/tfg-lean-cards-page/static/css/main.3a4ce1f5.chunk.css"
   },
   {
-    "revision": "41fc4737c0e0012c3866",
-    "url": "/tfg-lean-cards-page/static/js/2.b4c4d656.chunk.js"
+    "revision": "a2f4fdc00227270caf84",
+    "url": "/tfg-lean-cards-page/static/js/2.1ded3527.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/tfg-lean-cards-page/static/js/2.b4c4d656.chunk.js.LICENSE.txt"
+    "url": "/tfg-lean-cards-page/static/js/2.1ded3527.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d95529bf5abe5f80541b",
-    "url": "/tfg-lean-cards-page/static/js/main.a7daa02f.chunk.js"
+    "revision": "1b03c4452ecc8981b8eb",
+    "url": "/tfg-lean-cards-page/static/js/main.053978ed.chunk.js"
   },
   {
     "revision": "68fbc4213b0011757b52",
@@ -92,14 +92,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tfg-lean-cards-page/static/media/Kanban.ee644b90.pdf"
   },
   {
-    "revision": "a20ccad990dbba3913b3ea3e807a8631",
-    "url": "/tfg-lean-cards-page/static/media/Lean-project-management.a20ccad9.jpg"
-  },
-  {
-    "revision": "1ea8678a88d106b75c4e4c144985a4cd",
-    "url": "/tfg-lean-cards-page/static/media/Logo_noback.1ea8678a.png"
-  },
-  {
     "revision": "1b625a44be7f26538a29c1ab9ca41b10",
     "url": "/tfg-lean-cards-page/static/media/Poka-Yoke pic.1b625a44.png"
   },
@@ -122,6 +114,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b7d2950aff2dfdd2a94d32656434764a",
     "url": "/tfg-lean-cards-page/static/media/VSM.b7d2950a.pdf"
+  },
+  {
+    "revision": "f9503df04b7dbdcac665ad220f8aa7be",
+    "url": "/tfg-lean-cards-page/static/media/mockup_1_5s_front.f9503df0.png"
+  },
+  {
+    "revision": "71bd6d32a1dc753d2f0f22c6012717bb",
+    "url": "/tfg-lean-cards-page/static/media/mockup_2_5w2h.71bd6d32.png"
+  },
+  {
+    "revision": "dc44d211e117365d4ec84d51cee9f3e6",
+    "url": "/tfg-lean-cards-page/static/media/mockup_jit.dc44d211.png"
+  },
+  {
+    "revision": "2d89f5f1c323c2f269c3b458447006f8",
+    "url": "/tfg-lean-cards-page/static/media/mockup_kaizen.2d89f5f1.png"
   },
   {
     "revision": "a2520ea6ac5c32b6d7cf667475bdc1d9",
