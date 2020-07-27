@@ -9,6 +9,7 @@ import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import api from './api_cards.json';
 
 //animations
+import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
 
 function CardsList() {
@@ -47,44 +48,47 @@ function CardsList() {
 
   return (
     <div className="CardsList_container">
-      <div className="centered">
-        <h1 className="big">Available cards</h1>
-      </div>
+      <Fade>
+        <div>
+          <div className="centered">
+            <h1 className="big">Available cards</h1>
+          </div>
 
-      <List
-        itemLayout="vertical"
-        size="large"
-        pagination={{
-          pageSize: 5,
-        }}
-        dataSource={listData}
-        renderItem={item => (
-          <Flip top>
-            <Link to={`/cards_list/${item.id}`}>
-              <List.Item
-                key={item.title}
-                extra={
-                  <img
-                    className="cardimg"
-                    width={272}
-                    alt="logo"
-                    src={dynamic_require(item.title)}
-                  />
-                }
-              >
-                <List.Item.Meta
-                  title={<h1>{item.title}</h1>}
-                  description={<h3>{item.description}</h3>}
-                />
+          <List
+            itemLayout="vertical"
+            size="large"
+            pagination={{
+              pageSize: 5,
+            }}
+            dataSource={listData}
+            renderItem={item => (
+              <Flip top>
+                <Link to={`/cards_list/${item.id}`}>
+                  <List.Item
+                    key={item.title}
+                    extra={
+                      <img
+                        className="cardimg"
+                        width={272}
+                        alt="logo"
+                        src={dynamic_require(item.title)}
+                      />
+                    }
+                  >
+                    <List.Item.Meta
+                      title={<h1>{item.title}</h1>}
+                      description={<h3>{item.description}</h3>}
+                    />
 
-              </List.Item>
-            </Link>
-            <br /><br />
+                  </List.Item>
+                </Link>
+                <br /><br />
 
-          </Flip>
-        )}
-      />
-
+              </Flip>
+            )}
+          />
+        </div>
+      </Fade>
     </div>
   );
 

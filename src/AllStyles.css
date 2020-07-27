@@ -10,8 +10,8 @@ h1 {
     font-size: clamp(30px, 5vw, 40px);
     font-weight: bold;
 }
-h2{
-    font-size: clamp(25px, 4vw, 30px);;
+h2 {
+    font-size: clamp(25px, 4vw, 30px);
 }
 h3 {
     font-size: clamp(20px, 3vw, 20px);
@@ -77,7 +77,7 @@ footer {
     clear: both;
     position: relative;
     height: 200px;
-    margin-top: -200px;
+    margin-top: 200px;
 }
 
 /* ####################### CardsList.jsx ####################### */
@@ -112,7 +112,7 @@ footer {
 /* ####################### Homepage.jsx ####################### */
 .Homepage_container {
     text-align: center;
-    margin: 2% 5%;
+    /* margin: 2% 5%; */
 }
 
 #logo {
@@ -120,6 +120,11 @@ footer {
     display: inline;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.mockup {
+    margin-top: 5%;
+    width: 100%;
 }
 
 .Homepage_container p {
@@ -134,7 +139,7 @@ footer {
     margin-top: 10px;
 }
 
-.anticon{
+.anticon {
     width: 20px;
 }
 /* ####################### AboutProject.jsx ####################### */
@@ -146,5 +151,20 @@ footer {
 .margins {
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 5%;
+}
+
+/* ####################### Carousel.jsx ####################### */
+.Carousel_container{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+    color: #fff;
 }
