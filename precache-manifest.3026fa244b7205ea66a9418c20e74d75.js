@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5592c958b2830bdc85c5227619c18cf1",
+    "revision": "c610851b733686438804e20399d4efff",
     "url": "/tfg-lean-cards-page/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tfg-lean-cards-page/static/css/2.fc5a9450.chunk.css"
   },
   {
-    "revision": "1b03c4452ecc8981b8eb",
+    "revision": "87d2db8807de9dde9b18",
     "url": "/tfg-lean-cards-page/static/css/main.3a4ce1f5.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tfg-lean-cards-page/static/js/2.1ded3527.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1b03c4452ecc8981b8eb",
-    "url": "/tfg-lean-cards-page/static/js/main.053978ed.chunk.js"
+    "revision": "87d2db8807de9dde9b18",
+    "url": "/tfg-lean-cards-page/static/js/main.1f3d5c7a.chunk.js"
   },
   {
     "revision": "68fbc4213b0011757b52",
@@ -116,20 +116,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tfg-lean-cards-page/static/media/VSM.b7d2950a.pdf"
   },
   {
-    "revision": "f9503df04b7dbdcac665ad220f8aa7be",
-    "url": "/tfg-lean-cards-page/static/media/mockup_1_5s_front.f9503df0.png"
+    "revision": "dcde715b58659c5dabdf762cae2f917d",
+    "url": "/tfg-lean-cards-page/static/media/mockup_1_5s_front.dcde715b.png"
   },
   {
-    "revision": "71bd6d32a1dc753d2f0f22c6012717bb",
-    "url": "/tfg-lean-cards-page/static/media/mockup_2_5w2h.71bd6d32.png"
+    "revision": "889d52732b5e2acf6a2bf97373284f31",
+    "url": "/tfg-lean-cards-page/static/media/mockup_2_5w2h.889d5273.png"
   },
   {
-    "revision": "dc44d211e117365d4ec84d51cee9f3e6",
-    "url": "/tfg-lean-cards-page/static/media/mockup_jit.dc44d211.png"
+    "revision": "dead8d5a820a400169a81ad06d905817",
+    "url": "/tfg-lean-cards-page/static/media/mockup_jit.dead8d5a.png"
   },
   {
-    "revision": "2d89f5f1c323c2f269c3b458447006f8",
-    "url": "/tfg-lean-cards-page/static/media/mockup_kaizen.2d89f5f1.png"
+    "revision": "012546bd07965216eacaacb63b737e65",
+    "url": "/tfg-lean-cards-page/static/media/mockup_kaizen.012546bd.png"
   },
   {
     "revision": "a2520ea6ac5c32b6d7cf667475bdc1d9",

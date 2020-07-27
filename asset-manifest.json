@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tfg-lean-cards-page/static/css/main.3a4ce1f5.chunk.css",
-    "main.js": "/tfg-lean-cards-page/static/js/main.053978ed.chunk.js",
-    "main.js.map": "/tfg-lean-cards-page/static/js/main.053978ed.chunk.js.map",
+    "main.js": "/tfg-lean-cards-page/static/js/main.1f3d5c7a.chunk.js",
+    "main.js.map": "/tfg-lean-cards-page/static/js/main.1f3d5c7a.chunk.js.map",
     "runtime-main.js": "/tfg-lean-cards-page/static/js/runtime-main.65bab913.js",
     "runtime-main.js.map": "/tfg-lean-cards-page/static/js/runtime-main.65bab913.js.map",
     "static/css/2.fc5a9450.chunk.css": "/tfg-lean-cards-page/static/css/2.fc5a9450.chunk.css",
     "static/js/2.1ded3527.chunk.js": "/tfg-lean-cards-page/static/js/2.1ded3527.chunk.js",
     "static/js/2.1ded3527.chunk.js.map": "/tfg-lean-cards-page/static/js/2.1ded3527.chunk.js.map",
     "index.html": "/tfg-lean-cards-page/index.html",
-    "precache-manifest.c7d7cdc362160b71d7e9e342faa45268.js": "/tfg-lean-cards-page/precache-manifest.c7d7cdc362160b71d7e9e342faa45268.js",
+    "precache-manifest.3026fa244b7205ea66a9418c20e74d75.js": "/tfg-lean-cards-page/precache-manifest.3026fa244b7205ea66a9418c20e74d75.js",
     "service-worker.js": "/tfg-lean-cards-page/service-worker.js",
     "static/css/2.fc5a9450.chunk.css.map": "/tfg-lean-cards-page/static/css/2.fc5a9450.chunk.css.map",
     "static/css/main.3a4ce1f5.chunk.css.map": "/tfg-lean-cards-page/static/css/main.3a4ce1f5.chunk.css.map",
@@ -36,10 +36,10 @@
     "static/media/Pull or Push.pdf": "/tfg-lean-cards-page/static/media/Pull or Push.c3662bd6.pdf",
     "static/media/VSM pic.png": "/tfg-lean-cards-page/static/media/VSM pic.63dd85f1.png",
     "static/media/VSM.pdf": "/tfg-lean-cards-page/static/media/VSM.b7d2950a.pdf",
-    "static/media/mockup_1_5s_front.png": "/tfg-lean-cards-page/static/media/mockup_1_5s_front.f9503df0.png",
-    "static/media/mockup_2_5w2h.png": "/tfg-lean-cards-page/static/media/mockup_2_5w2h.71bd6d32.png",
-    "static/media/mockup_jit.png": "/tfg-lean-cards-page/static/media/mockup_jit.dc44d211.png",
-    "static/media/mockup_kaizen.png": "/tfg-lean-cards-page/static/media/mockup_kaizen.2d89f5f1.png",
+    "static/media/mockup_1_5s_front.png": "/tfg-lean-cards-page/static/media/mockup_1_5s_front.dcde715b.png",
+    "static/media/mockup_2_5w2h.png": "/tfg-lean-cards-page/static/media/mockup_2_5w2h.889d5273.png",
+    "static/media/mockup_jit.png": "/tfg-lean-cards-page/static/media/mockup_jit.dead8d5a.png",
+    "static/media/mockup_kaizen.png": "/tfg-lean-cards-page/static/media/mockup_kaizen.012546bd.png",
     "static/media/photo_me.jpg": "/tfg-lean-cards-page/static/media/photo_me.a2520ea6.jpg"
   },
   "entrypoints": [
@@ -47,6 +47,6 @@
     "static/css/2.fc5a9450.chunk.css",
     "static/js/2.1ded3527.chunk.js",
     "static/css/main.3a4ce1f5.chunk.css",
-    "static/js/main.053978ed.chunk.js"
+    "static/js/main.1f3d5c7a.chunk.js"
   ]
 }
