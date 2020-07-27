@@ -8,6 +8,8 @@ import api from './api_cards.json';
 import Disqus from "disqus-react";
 import { Divider } from 'antd';
 
+import Fade from 'react-reveal/Fade';
+
 function CardPage(props) {
 
     // Get data from this specific card such as the title, description, pdf, picture
@@ -41,22 +43,25 @@ function CardPage(props) {
     return (
         <div className="centered">
             <div className="CardPage_container">
-                <h1 className="big">{thisCard.title}</h1>
-                
-                <h2 className="card_desc">{thisCard.description}</h2>
-                <br/><br/><br/><br/>
-                <Divider><h2 className="resources">Related resources</h2></Divider>
-                <a href="https://www.youtube.com/watch?v=Ui-Lk6gK7m8">Example video 1</a>
-                <br/>
-                <Divider><h2 className="pdf">Card</h2></Divider>
-                <iframe class="embeded_pdf" src={dynamic_require_pdf(thisCard.title)}></iframe>
-                <Divider />
-                <Tags className="tags" />
-                <Disqus.DiscussionEmbed
-                    className="disqus"
-                    shortname={disqusShortname}
-                    config={disqusConfig}
-                />
+                <Fade cascade>
+                    <div>
+                        <h1 className="big">{thisCard.title}</h1>
+                        <h2 className="card_desc">{thisCard.description}</h2>
+                        <br /><br /><br /><br />
+                        <Divider><h2 className="resources">Related resources</h2></Divider>
+                        <a href="https://www.youtube.com/watch?v=Ui-Lk6gK7m8">Example video 1</a>
+                        <br />
+                        <Divider><h2 className="pdf">Card</h2></Divider>
+                        <iframe class="embeded_pdf" src={dynamic_require_pdf(thisCard.title)}></iframe>
+                        <Divider />
+                        <Tags className="tags" />
+                        <Disqus.DiscussionEmbed
+                            className="disqus"
+                            shortname={disqusShortname}
+                            config={disqusConfig}
+                        />
+                    </div>
+                </Fade>
             </div>
         </div>
 

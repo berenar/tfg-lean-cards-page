@@ -48,7 +48,7 @@ function CardsList() {
 
   return (
     <div className="CardsList_container">
-      <Fade>
+      <Fade cascade>
         <div>
           <div className="centered">
             <h1 className="big">Available cards</h1>
