@@ -14,6 +14,37 @@ function CardPage(props) {
 
     // Get data from this specific card such as the title, description, pdf, picture
     const thisCard = api.cards[props.id];
+    const cards = [
+    '5 S',
+    '5 W + 2 H',
+    '5 W + 2 H Examples',
+    '7 Mudas',
+    'Jidoka',
+    'JIT',
+    'Kaizen',
+    'Kanban',
+    'Poka-Yoke',
+    'Pull or Push'
+    ];
+
+    const resources = [
+        'https://youtube.com/embed/8G1t_BdjGI0',
+        'https://youtube.com/embed/yMjngIXE-40',
+        'https://youtube.com/embed/yMjngIXE-40',
+        'https://youtube.com/embed/SU01D-jTZcE',
+        'https://youtube.com/embed/f97Nr4LS8l4',
+        'https://youtube.com/embed/AH5Bn8iguNM',
+        'https://youtube.com/embed/xNcO21FwMnk',
+        'https://youtube.com/embed/Bcid33tgq8A',
+        'https://youtube.com/embed/4RvHEkDOwUY',
+        'https://youtube.com/embed/9OL7BMBa4ys'
+    ];
+    var cardsRes = {};
+    for(var i = 0; i < cards.length; i++){
+        cardsRes[cards[i]] = resources[i];
+    }
+    console.log(cardsRes);
+    
     // Disqus
     const disqusShortname = "lean-cards"
     const disqusConfig = {
@@ -48,12 +79,14 @@ function CardPage(props) {
                         <h1 className="big">{thisCard.title}</h1>
                         <h2 className="card_desc">{thisCard.description}</h2>
                         <br /><br /><br /><br />
-                        <Divider><h2 className="resources">Related resources</h2></Divider>
-                        <a href="https://www.youtube.com/watch?v=Ui-Lk6gK7m8">Example video 1</a>
-                        <br />
                         <Divider><h2 className="pdf">Card</h2></Divider>
-                        <iframe class="embeded_pdf" src={dynamic_require_pdf(thisCard.title)}></iframe>
-                        <Divider />
+                        <iframe className="embeded_pdf" src={dynamic_require_pdf(thisCard.title)}></iframe>
+                        <Divider>
+                        <h2 className="resources">Related video</h2></Divider>
+                        <iframe className="embeded_pdf" src={cardsRes[thisCard.title]} 
+                        frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                        allowFullScreen>
+                        </iframe>
                         <Tags className="tags" />
                         <Disqus.DiscussionEmbed
                             className="disqus"

@@ -5,7 +5,7 @@ import { Carousel } from 'antd';
 function Carro() {
     return (
         <div className="Carousel_container">
-            <Carousel autoplay pauseOnFocus speed="1000" swipeToSlide>
+            <Carousel autoplay pauseOnFocus speed="2000" swipeToSlide>
                 <div>
                 <h3>1</h3>
                 <img className="mockup" src={require("./assets/Mockups/mockup_kaizen.png")} alt="" />
